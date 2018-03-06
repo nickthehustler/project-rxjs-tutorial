@@ -1,2 +1,15 @@
-<button class="counter-btn" mat-raised-button color="primary">Increment</button>
-<button class="counter-btn" mat-raised-button color="primary">Decrement</button>
+<div>
+    <a routerLink="/counter">&lt;&lt;&lt;Simple Counter</a>
+    <a routerLink="/stopbutton">Stop Button to Stop Counting &gt;&gt;&gt;</a>
+</div>
+<h2>Increment and Decrement Counter</h2>
+<p>Now, we have something a little more complicated.</p>
+<p>We have two buttons. One button will increment our counter.</p>
+<p>The other button will decrement our counter.</p>
+<p class="last-paragraph">So we have two observables, one more each button.</p>
+
+<div class="simple-container">
+    <button class="counter-btn increment" mat-raised-button color="primary">Increment</button>
+    <button class="counter-btn decrement" mat-raised-button color="warn">Decrement</button>
+    <div class="counter-field">{{ counter }}</div>
+</div>

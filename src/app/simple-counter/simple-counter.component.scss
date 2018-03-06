@@ -1,0 +1,32 @@
+h2 {
+    margin: 30px;
+}
+
+p {
+    margin: 10px;
+
+    &.last-paragraph {
+        margin-bottom: 20px;
+    }
+}
+
+.counter-btn {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.counter-field {
+    margin-top: 10px;
+    margin-left: 25px; 
+    margin-right: 25px; 
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    padding-left: 35px;
+}
+
+.simple-container {
+    margin: auto;
+
+}
